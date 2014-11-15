@@ -95,7 +95,7 @@ precmd ()
     else
         RPROMPT=""
     fi
-    RPROMPT="$RPROMPT%{$COLOR2%}$MODULE:$PROJECT%{$NORMAL%}"
+    RPROMPT="$RPROMPT%{$COLOR2%}$MODULE"
 }
 
 MAMP=$HOME/mamp/apps
