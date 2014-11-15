@@ -20,10 +20,6 @@ bindkey '^R' history-incremental-search-backward
 bindkey -e
 export LC_ALL=en_US.UTF-8
 
-# previous/next word with alt + arrow
-bindkey '^[[1;3C' forward-word
-bindkey '^[[1;3D' backward-word
-
 # previous/next word with ctrl + arrow
 bindkey '^[[1;5C' forward-word
 bindkey '^[[1;5D' backward-word

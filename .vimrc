@@ -23,7 +23,8 @@ call pathogen#infect()
 "call pathogen#helptags()        " Generate doc for all plugins
 
 " theme
-colorscheme kalahari
+"colorscheme kalahari
+colorscheme zellner
 
 filetype plugin indent on        " activate filetype detection,
 
